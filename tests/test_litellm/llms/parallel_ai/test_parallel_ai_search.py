@@ -304,6 +304,7 @@ class TestParallelAISearch:
                 query="AI developments",
                 search_provider="parallel_ai",
                 api_base=api_base,
+                api_key="caller-key",
             )
 
             call_args = mock_post.call_args
